@@ -1,0 +1,17 @@
+{
+  "name": "learnDirectives",
+  "version": "0.0.1",
+  "main": "app.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.10"
+  },
+  "dependencies": {
+    "angular": "~1.2.10",
+    "angular-ui-router": "~0.2.8"
+  }
+}

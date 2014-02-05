@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+
+    <div ng-app="app">
+	    <div ui-view></div>
+    </div>
+
+    <script src="javascripts/lib/angular/angular.js"></script>
+    <script src="javascripts/lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="javascripts/app/app.js"></script>
+    <script src="javascripts/app/index/colorDirectives.js"></script>
+  </body>
+</html>
